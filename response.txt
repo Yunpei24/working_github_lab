@@ -1,0 +1,43 @@
+2. When you run git init in a directory, Git initializes a new repository in that folder. Here's what happens under the hood:
+
+Creation of the .git Directory:
+Git creates a hidden .git folder in the root of our project. This folder contains all the metadata and objects that Git needs to track changes in our project.
+
+Folder Structure Inside .git:
+The .git folder contains several subdirectories and files:
+
+No Changes to Your Files:
+Running git init does not modify your existing files or create any tracked files. It simply sets up the .git directory to start tracking changes.
+
+Repository State:
+After running git init, our repository is in an untracked state. we need to explicitly add files to the staging area using git add and commit them with git commit to start tracking changes.
+
+Folder Structure Example After git init:
+In summary, git init sets up the necessary infrastructure for Git to manage our project, but it doesn't touch our existing files or start tracking them until we explicitly add and commit them.
+
+
+##############################################
+
+
+3. The advantage of README.md that it permit to explain clearly our project ie. the goal of our project
+how to use it, how to configurate it.
+
+
+##############################################
+
+4. git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+5.
+
+joshuajustenikiema@Mac working_github_lab % git commit -ma "Add initial README"
+error: pathspec 'Add initial README' did not match any file(s) known to git
