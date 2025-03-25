@@ -1,3 +1,5 @@
+LAB 1
+
 2. When you run git init in a directory, Git initializes a new repository in that folder. Here's what happens under the hood:
 
 Creation of the .git Directory:
@@ -47,3 +49,12 @@ This command don't work
 ##############################################
 
 6. The log help the team to know who committed, when and what.
+
+
+############################################################################################
+
+LAB 2
+
+1. git stash rollback to state of file in the previous commit
+
+git stash pop and git stash apply rollback to the modification state
