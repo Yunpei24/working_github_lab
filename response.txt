@@ -36,8 +36,14 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+The colors 'red' means that our file it's not yet sent to the remote repository
+##############################################
 
 5.
 
-joshuajustenikiema@Mac working_github_lab % git commit -ma "Add initial README"
-error: pathspec 'Add initial README' did not match any file(s) known to git
+joshuajustenikiema@Mac working_github_lab % git commit -am "Add initial README"
+This command don't work
+
+##############################################
+
+6. The log help the team to know who committed, when and what.
