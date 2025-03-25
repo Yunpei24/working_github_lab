@@ -13,4 +13,4 @@
 - **Switch to a branch**: `git checkout <branch-name>`
 - **Create and switch to a branch**: `git checkout -b <branch-name>`
 - **Merge branches**: `git merge <branch-name>`
-- **Delete a branch**: `git branch -d <branch-name>`
+- **Delete a branch**: `git branch -d <branch-name>`Work in progress...
